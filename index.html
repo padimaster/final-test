@@ -8,21 +8,21 @@
   </head>
   <body>
     <main class="p-16 flex flex-col justify-center items-center gap-8">
-      <h1 class="text-4xl font-semibold">Registrar Estudiante</h1>
+      <h1 class="text-2xl text-cemter md:text-4xl font-semibold">Registrar Estudiante</h1>
       <form id="form" class="flex flex-col gap-4 items-center">
-        <div class="flex w-96 gap-4 justify-between items-center font-semibold">
+        <div class="flex flex-col md:flex-row w-96 gap-4 justify-between items-center font-semibold">
           <label for="id">ID</label>
           <input type="text" class="p-2 border-2 border-black rounded-md" name="id" required placeholder="Identificador"/>
         </div>
-        <div class="flex w-96 gap-4 justify-between items-center font-semibold">
+        <div class="flex flex-col md:flex-row w-96 gap-4 justify-between items-center font-semibold">
           <label for="name">Nombre</label>
           <input type="text" class="p-2 border-2 border-black rounded-md" name="name" required placeholder="Nombre"/>
         </div>
-        <div class="flex w-96 gap-4 justify-between items-center font-semibold">
+        <div class="flex flex-col md:flex-row w-96 gap-4 justify-between items-center font-semibold">
           <label for="direction">Dirección</label>
           <input type="text" class="p-2 border-2 border-black rounded-md" name="direction" required placeholder="Dirección"/>
         </div>
-        <div class="flex w-96 gap-4 justify-between items-center font-semibold">
+        <div class="flex flex-col md:flex-row w-96 gap-4 justify-between items-center font-semibold">
           <label for="phone">Teléfono</label>
           <input type="phone" class="p-2 border-2 border-black rounded-md" name="phone" required placeholder="Teléfono"/>
         </div>
@@ -32,7 +32,7 @@
       </form>
       <div class="w-full h-[0.10rem] bg-gray-500">
       </div>
-      <h1 class="text-4xl font-semibold">Lista de Estudiantes</h1>
+      <h1 class="text-2xl text-cemter md:text-4xl font-semibold">Lista de Estudiantes</h1>
       <table class="table-fixed border border-black rounded-full">
         <thead>
           <tr class="bg-gray-100">
